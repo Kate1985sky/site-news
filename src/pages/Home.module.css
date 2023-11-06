@@ -1,0 +1,35 @@
+.wrapper {
+    margin: 0 auto;
+  }
+  
+  .list {
+    list-style: none;
+  }
+  .items {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .items:hover {
+      color: rgb(236, 94, 94);
+      transition-delay: 0s;
+  }
+  
+  .listNews {
+    max-width: 550px;
+    height: 100%;
+    border-radius: 14px;
+    background: rgb(248, 247, 246);
+    font-family: auto;
+    line-height: 38px;
+    letter-spacing: 0px;
+  }
+  .titleNews {
+    padding: 15px 55px;
+    font-family: auto;
+    color: rgb(67, 65, 65);
+  }
+  .body {
+    color: rgb(67, 65, 65);
+    padding: 10px 55px;
+    font-family: auto;
+  }
