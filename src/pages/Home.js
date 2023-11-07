@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import { useFetch } from "../hooks/useFetch";
 import { ContentBox } from "../components/ContentBox/ContentBox";
+import { Load } from "../components/Load/Load";
 
 
 export const Home = () => {
   const { data: news } = useFetch("https://jsonplaceholder.typicode.com/posts");
 
   if (news === null) {
-    return null;
+    return <Load />;
   }
 
     return (

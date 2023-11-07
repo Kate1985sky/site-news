@@ -3,6 +3,7 @@ import styles from "./ItemsNews.module.css";
 import { ContentBox } from "../components/ContentBox/ContentBox";
 import { useParams } from "react-router-dom";
 import { useFetch } from "../hooks/useFetch";
+import { Load } from "../components/Load/Load";
 
 export const ItemsNews = () => {
   const params = useParams();
@@ -10,7 +11,7 @@ export const ItemsNews = () => {
   const { data: post } = useFetch(postUrl);
 
   if (post === null) {
-    return null;
+    return <Load/>;
   }
 
   return (
