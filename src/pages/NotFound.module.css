@@ -1,0 +1,11 @@
+.wrapper {
+    width: 550px;
+    height: 100%;
+    margin: 0 auto;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 95px;
+}

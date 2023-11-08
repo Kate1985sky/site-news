@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "./ItemsNews.module.css";
+import styles from "./ArticlePage.module.css";
 import { ContentBox } from "../components/ContentBox/ContentBox";
 import { useParams } from "react-router-dom";
 import { useFetch } from "../hooks/useFetch";
 import { Load } from "../components/Load/Load";
 
-export const ItemsNews = () => {
+export const ArticlePage = () => {
   const params = useParams();
   const postUrl = "https://jsonplaceholder.typicode.com/posts/" + params.id;
   const { data: post } = useFetch(postUrl);

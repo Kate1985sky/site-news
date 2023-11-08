@@ -13,8 +13,8 @@
     font-size: 18px;
 }
 .title {
-    padding: 3px, 25px;
+    padding: 3px 25px;
     color: rgb(67, 65, 65);
-    font-family: auto;
+    font-family: inherit;
     font-size: 23px;
 }

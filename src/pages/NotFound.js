@@ -1,7 +1,10 @@
 import React from "react";
+import styles from './NotFound.module.css';
 
 export const NotFound = () => {
-    return (
-        <h1>Sorry, the Page is not found 😱</h1>
-    )
-}
+  return (
+    <div className={styles.wrapper}>
+      <h1 className={styles.title}>Sorry, the Page is not found 😱</h1>
+    </div>
+  );
+};
