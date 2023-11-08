@@ -9,11 +9,7 @@
     cursor: pointer;
     text-decoration: none;
   }
-  .items:hover {
-      color: rgb(236, 94, 94);
-      transition-delay: 0s;
-  }
-  
+ 
   .listNews {
     max-width: 550px;
     height: 100%;
